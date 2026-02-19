@@ -10,7 +10,7 @@ This project implements the mathematical model originally proposed by **Murray a
 
 ## 📊 Optimal Route Visualization
 ![Optimal Route](Optimal%20Route%20Example.png)
-*Figure: Optimized 13-node route showing truck paths (cyan) and drone sorties (lime/magenta).*
+*Figure: Optimized 5-node route showing truck paths (cyan) and drone sorties (lime/magenta).*
 
 ---
 
