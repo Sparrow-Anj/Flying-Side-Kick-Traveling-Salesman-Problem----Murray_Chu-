@@ -35,7 +35,7 @@ Pkg.add(["JuMP", "HiGHS", "Plots", "Measures"])
 
 julia --project=. main.jl 
 
-Authors: 
+### 3. Authors: 
 
 Lead Developer: Sparrow-Anj 
 Research Basis: Murray, C. C., & Chu, A. G. (2015). The flying sidekick traveling salesman problem.
