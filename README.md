@@ -24,7 +24,7 @@ Clone the repository and install the required dependencies:
 
 ```bash
 git clone [https://github.com/Sparrow-Anj/Flying-Side-Kick-Traveling-Salesman-Problem----Murray_Chu-.git](https://github.com/Sparrow-Anj/Flying-Side-Kick-Traveling-Salesman-Problem----Murray_Chu-.git)
-cd Flying-Side-Kick-Traveling-Salesman-Problem----Murray_Chu-
+cd FSTSP_SOLVER
 
 Open Julia and run: 
 
