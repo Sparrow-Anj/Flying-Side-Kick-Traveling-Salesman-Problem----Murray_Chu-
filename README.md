@@ -16,6 +16,7 @@ This project implements the mathematical model originally proposed by **Murray a
 ## Authors: 
 
 Lead Developer: Sparrow-Anj 
+
 Research Basis: Murray, C. C., & Chu, A. G. (2015). The flying sidekick traveling salesman problem.
 
 ## Objectives
