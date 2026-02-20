@@ -8,13 +8,13 @@ An exact **Branch-and-Cut** implementation for the **Flying Sidekick Traveling S
 ##  Overview
 This project implements the mathematical model originally proposed by **Murray and Chu (2015)**. It includes critical corrections to the drone launch and recovery index sets and features a high-resolution dark-mode visualization engine.
 
-## 📊 Optimal Route Visualization
+## Optimal Route Visualization
 ![Optimal Route](Optimal%20Route%20Example.png)
 *Figure: Optimized 5-node route showing truck paths (cyan) and drone sorties (lime/magenta).*
 
 ---
 
-## 🛠️ Installation
+##  Installation
 
 ### 1. Prerequisites
 Ensure you have [Julia](https://julialang.org/downloads/) installed on your machine. For large-scale problems (30+ nodes), a Gurobi license is recommended, but the model runs on **HiGHS** by default.
@@ -23,7 +23,7 @@ Ensure you have [Julia](https://julialang.org/downloads/) installed on your mach
 Clone the repository and install the required dependencies:
 
 ```bash
-git clone [https://github.com/Sparrow-Anj/Flying-Side-Kick-Traveling-Salesman-Problem----Murray_Chu-.git](https://github.com/Sparrow-Anj/Flying-Side-Kick-Traveling-Salesman-Problem----Murray_Chu-.git)
+git clone https://github.com/Sparrow-Anj/Flying-Side-Kick-Traveling-Salesman-Problem----Murray_Chu-.git
 cd FSTSP_SOLVER
 
 Open Julia and run: 
