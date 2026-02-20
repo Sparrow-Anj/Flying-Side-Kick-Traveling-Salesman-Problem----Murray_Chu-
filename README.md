@@ -12,6 +12,19 @@ This project implements the mathematical model originally proposed by **Murray a
 ![Optimal Route](Optimal%20Route%20Example.png)
 *Figure: Optimized 5-node route showing truck paths (cyan) and drone sorties (lime/magenta).*
 
+
+## Authors: 
+
+Lead Developer: Sparrow-Anj 
+Research Basis: Murray, C. C., & Chu, A. G. (2015). The flying sidekick traveling salesman problem.
+
+## Objectives
+
+1. To get a clear understading of Vehicle Routing Problems. 
+2. To get a clear understanding of UAV/Truck tandem Vehicle Routing Problem. 
+3. To get a clear understanding of Mixed Integer Linear Programming.
+4. To get a familiarity with Juila and juMP software tools. 
+
 ---
 
 ##  Installation
@@ -33,9 +46,4 @@ Pkg.add(["JuMP", "HiGHS", "Plots", "Measures"])
 
 ## Run Execution:
 
-julia --project=. main.jl 
-
-### 3. Authors: 
-
-Lead Developer: Sparrow-Anj 
-Research Basis: Murray, C. C., & Chu, A. G. (2015). The flying sidekick traveling salesman problem.
+julia --project=. main.jl
