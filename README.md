@@ -12,19 +12,24 @@ This project implements the mathematical model originally proposed by **Murray a
 ![Optimal Route](Optimal%20Route%20Example.png)
 *Figure: Optimized 5-node route showing truck paths (cyan) and drone sorties (lime/magenta).*
 
+## Objectives
+
+1. To get a clear understading of Vehicle Routing Problems. 
+2. To get a clear understanding of UAV/Truck tandem Vehicle Routing Problem. 
+3. To get a clear understanding of Mixed Integer Linear Programming.
+4. To get a familiarity with Juila and juMP software tools.
+
+## Features
+- Exact Branch-and-Cut solver using JuMP
+- HiGHS default solver; optional Gurobi for larger instances
+- High-resolution dark-mode visualization of routes
+- Example instances and scripts to reproduce figures
 
 ## Authors: 
 
 Lead Developer: Sparrow-Anj 
 
 Research Basis: Murray, C. C., & Chu, A. G. (2015). The flying sidekick traveling salesman problem.
-
-## Objectives
-
-1. To get a clear understading of Vehicle Routing Problems. 
-2. To get a clear understanding of UAV/Truck tandem Vehicle Routing Problem. 
-3. To get a clear understanding of Mixed Integer Linear Programming.
-4. To get a familiarity with Juila and juMP software tools. 
 
 ---
 
@@ -34,17 +39,6 @@ Research Basis: Murray, C. C., & Chu, A. G. (2015). The flying sidekick travelin
 Ensure you have [Julia](https://julialang.org/downloads/) installed on your machine. For large-scale problems (30+ nodes), a Gurobi license is recommended, but the model runs on **HiGHS** by default.
 
 ### 2. Package Setup
-
-# FSTSP Solver in Julia
-[![Julia](https://img.shields.io/badge/julia-v1.10+-9558B2?logo=julia)](https://julialang.org) [![JuMP](https://img.shields.io/badge/JuMP-v1.15-4053D2)](https://jump.dev)
-
-An exact Branch-and-Cut solver for the **Flying Sidekick Traveling Salesman Problem (FSTSP)** (based on Murray & Chu, 2015). This repository provides the model, example instances, and a visualization engine for truck + drone tandem routing.
-
-## Features
-- Exact Branch-and-Cut solver using JuMP
-- HiGHS default solver; optional Gurobi for larger instances
-- High-resolution dark-mode visualization of routes
-- Example instances and scripts to reproduce figures
 
 ## Quickstart (recommended)
 ```bash
