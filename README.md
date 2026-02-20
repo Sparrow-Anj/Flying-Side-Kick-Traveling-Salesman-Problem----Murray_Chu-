@@ -38,6 +38,9 @@ Ensure you have [Julia](https://julialang.org/downloads/) installed on your mach
 Clone the repository and install the required dependencies:
 
 git clone https://github.com/Sparrow-Anj/Flying-Side-Kick-Traveling-Salesman-Problem----Murray_Chu-.git
+
 cd FSTSP_SOLVER
+
 julia --project=. -e 'using Pkg; Pkg.instantiate()'
+
 julia --project=. main.jl
