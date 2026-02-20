@@ -34,17 +34,10 @@ Research Basis: Murray, C. C., & Chu, A. G. (2015). The flying sidekick travelin
 Ensure you have [Julia](https://julialang.org/downloads/) installed on your machine. For large-scale problems (30+ nodes), a Gurobi license is recommended, but the model runs on **HiGHS** by default.
 
 ### 2. Package Setup
+
 Clone the repository and install the required dependencies:
 
-```bash
 git clone https://github.com/Sparrow-Anj/Flying-Side-Kick-Traveling-Salesman-Problem----Murray_Chu-.git
 cd FSTSP_SOLVER
-
-Open Julia and run: 
-
-using Pkg
-Pkg.add(["JuMP", "HiGHS", "Plots", "Measures"])
-
-## Run Execution:
-
-julia main.jl
+julia --project=. -e 'using Pkg; Pkg.instantiate()'
+julia --project=. main.jl
