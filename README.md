@@ -47,4 +47,4 @@ Pkg.add(["JuMP", "HiGHS", "Plots", "Measures"])
 
 ## Run Execution:
 
-julia --project=. main.jl
+julia main.jl
