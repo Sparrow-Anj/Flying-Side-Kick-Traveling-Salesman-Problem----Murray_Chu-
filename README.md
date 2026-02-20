@@ -35,12 +35,22 @@ Ensure you have [Julia](https://julialang.org/downloads/) installed on your mach
 
 ### 2. Package Setup
 
-Clone the repository and install the required dependencies:
+# FSTSP Solver in Julia
+[![Julia](https://img.shields.io/badge/julia-v1.10+-9558B2?logo=julia)](https://julialang.org) [![JuMP](https://img.shields.io/badge/JuMP-v1.15-4053D2)](https://jump.dev)
 
+An exact Branch-and-Cut solver for the **Flying Sidekick Traveling Salesman Problem (FSTSP)** (based on Murray & Chu, 2015). This repository provides the model, example instances, and a visualization engine for truck + drone tandem routing.
+
+## Features
+- Exact Branch-and-Cut solver using JuMP
+- HiGHS default solver; optional Gurobi for larger instances
+- High-resolution dark-mode visualization of routes
+- Example instances and scripts to reproduce figures
+
+## Quickstart (recommended)
+```bash
 git clone https://github.com/Sparrow-Anj/Flying-Side-Kick-Traveling-Salesman-Problem----Murray_Chu-.git
-
-cd FSTSP_SOLVER
-
+cd Flying-Side-Kick-Traveling-Salesman-Problem----Murray_Chu-
+# instantiate project environment
 julia --project=. -e 'using Pkg; Pkg.instantiate()'
-
+# run default example
 julia --project=. main.jl
