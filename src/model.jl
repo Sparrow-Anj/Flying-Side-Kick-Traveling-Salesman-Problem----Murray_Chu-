@@ -5,7 +5,7 @@ function CreateModel(data::LOAD_DATA)
 
  model = Model(HiGHS.Optimizer)
 
- set_time_limit_sec(model, 900.0) # Forcing the model to stop after 15 minutes 
+ set_time_limit_sec(model, 3600.0) # Forcing the model to stop after 1 hour
 
 
  # Decision Variables 
@@ -29,7 +29,6 @@ function CreateModel(data::LOAD_DATA)
  (i != j) && (j in data.uv_eligible_node) && (k != i && k != j) && (data.uv_travel_time_3d_coordinates[i,j,k]<= data.ϵ)], 
 
  lower_bound = 0.0,
-
 
  upper_bound = 1.0,
 
