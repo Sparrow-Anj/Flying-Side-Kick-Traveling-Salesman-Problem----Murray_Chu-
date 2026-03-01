@@ -6,7 +6,7 @@
 An exact **Branch-and-Cut** implementation for the **Flying Sidekick Traveling Salesman Problem (FSTSP)**. This solver optimizes synchronized delivery routes where a truck and a drone work in tandem to minimize total service time.
 
 ##  Overview
-This project implements the mathematical model originally proposed by **Murray and Chu (2015)**. It includes critical corrections to the drone launch and recovery index sets and features a high-resolution dark-mode visualization engine.
+This project implements the mathematical model originally proposed by **Murray and Chu (2015)**. It includes critical corrections to the drone launch and recovery index sets and features a high-resolution dark-mode visualization route image.
 
 ## Optimal Route Visualization
 ![Optimal Route](Optimal%20Route%20Example.png)
