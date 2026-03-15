@@ -26,7 +26,6 @@ end
 
 function BuildRandomCity(data::LOAD_DATA, nodes::Integer)
 
-
     dimension = nodes + 2  
     coordinates::Array{AbstractFloat,2} = rand(1:500,dimension,2)
     city_graph::Array{AbstractFloat,2} = zeros(dimension,dimension) 
@@ -69,7 +68,8 @@ function BuildTruckTravelTime(data::LOAD_DATA,network::Array{AbstractFloat,2}, s
 
 
 function BuildUvTravelTime3DCoordinates(data::LOAD_DATA, network::Array{AbstractFloat,2}, speed::AbstractFloat, total_endurance:: AbstractFloat, eligible_node::Vector)
-        row,col = size(network)
+       
+    row,col = size(network)
         page = row
         uv_travel_time::Array{AbstractFloat,3} = fill(0.0,row,col,page)
 
@@ -94,9 +94,8 @@ function BuildUvTravelTime3DCoordinates(data::LOAD_DATA, network::Array{Abstract
 
 function BuildUvTravelTime2DCoordinates(data::LOAD_DATA, network::Array{AbstractFloat,2}, speed::AbstractFloat, total_endurance:: AbstractFloat, eligible_node::Vector)
     
-        row,col = size(network)
-
-        uv_travel_time::Array{AbstractFloat,2} = fill(0.0,row,col)
+ row,col = size(network)
+ uv_travel_time::Array{AbstractFloat,2} = fill(0.0,row,col)
 
         for i in 1 : row 
             for j in 1 : col 
